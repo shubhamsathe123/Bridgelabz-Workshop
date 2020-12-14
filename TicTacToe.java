@@ -33,5 +33,20 @@ public class TicTacToe
 	      }
 	    }  
 	     board();
+	  //uc case 2
+	    System.out.println("your board is");
+	    showboard(game.tictoc);    
+	    System.out.println("Select Your Marker (O or X): ");  
+	    usermark=in.next().charAt(0);
+	    
+	    if(usermark=='X' || usermark=='x')
+	    {
+	    computermark='O';
+	    }
+	    else
+	    {
+	     computermark='X';
+	    }
+
      }
 }
